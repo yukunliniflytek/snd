@@ -1,0 +1,6 @@
+download: 
+	scp root@106.186.117.130:~/iflytek/log.html log2.html
+update:
+	scp log.html root@106.186.117.130:~/iflytek/
+checkout:
+	scp root@106.186.117.130:~/iflytek/log.html log.html
